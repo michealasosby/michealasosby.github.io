@@ -122,8 +122,9 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
   color: white;
   background-color: #FFFCFB;
-  border-color: #FFFCFB;
+  border: none;
 }
+
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
@@ -207,7 +208,7 @@ fieldset[disabled] .btn-xl.active {
   color: #9DAEB2;
   background-color: #FFFFFF;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .navbar-custom {
     background-color: transparent;
     padding: 25px 0;
