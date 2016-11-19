@@ -596,17 +596,8 @@ aside.clients img {
   margin: 50px auto;
 }
 
-.52books img {
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  min-height: 9000px;
-  max-height: 9000px;
-}
+
+
 
 section#contact {
   background-color: #222222;
