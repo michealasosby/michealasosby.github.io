@@ -13,6 +13,7 @@ body {
 .text-primary {
   color: #fed136;
 }
+
 p {
   font-size: 14px;
   line-height: 1.75;
@@ -20,6 +21,7 @@ p {
 p.large {
   font-size: 16px;
 }
+
 a,
 a:hover,
 a:focus,
@@ -254,7 +256,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-  background-image: url('../img/about/headerimage-edited.jpg');
+  background-image: url('../img/about/nope.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -283,10 +285,12 @@ header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 100px;
   line-height: 50px;
   margin-bottom: 25px;
 }
+
+
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
@@ -308,6 +312,7 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
   }
 }
+
 section {
   padding: 100px 0;
 }
@@ -404,6 +409,7 @@ section h3.section-subheading {
     margin: 0 0 30px;
   }
 }
+
 
 .timeline {
   list-style: none;
@@ -596,8 +602,38 @@ aside.clients img {
   margin: 50px auto;
 }
 
+section#books {
+  background-image: url('../img/52books.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 600px;
+  max-height: 2000px;
+  height: 800px;
+  width:auto;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  section#books iframe {
+  padding-left: 75px;
+  }
+}
 
 
+section#books h1 {
+  font-size: 60px;
+}
+
+section#books p span {
+  background-color: #460e22;
+  padding: 1px;
+  }
 
 section#contact {
   background-color: #222222;
@@ -704,6 +740,7 @@ ul.social-buttons li a:active {
   height: 100%;
   width: auto;
 }
+
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
@@ -712,20 +749,24 @@ ul.social-buttons li a:active {
   border: none;
   min-height: 100%;
   padding: 100px 0;
-  text-align: center;
+
 }
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
+  text-align: center;
 }
+
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
 }
+
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
+  text-align: center;
 }
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 30px;
