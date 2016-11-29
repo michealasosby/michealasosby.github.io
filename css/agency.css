@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-  background-image: url('../img/about/nope.jpg');
+  background-image: url('../img/about/headerimage-edited.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -265,21 +265,21 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  min-height: 400px;
-  max-height: 1200px;
+  min-height: 300px;
+  max-height: 700px;
   text-align: center;
   color: white;
 }
 
 header .intro-text {
   padding-top: 500px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   text-align: left;
   width: 350px;
   color: #222222;
@@ -306,13 +306,14 @@ header .intro-text .intro-lead-in span {
 
 @media (max-width: 767px) {
   header {
-    margin-left: -200px;
+    margin-left: -300px;
+    margin-top: 40px;
   }
 
   header .intro-text .intro-lead-in {
-    margin-left: 200px;
+    margin-left: 300px;
     width: 300px;
-    margin-top: -100px;
+    margin-top: -125px;
   }
 
   header .intro-text .intro-lead-in {
