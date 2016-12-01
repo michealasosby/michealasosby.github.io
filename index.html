@@ -35,6 +35,12 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!--Leaflet CSS-->
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css"/>
+
+<link rel="stylesheet" href="css/data.css"/>
+
+
 </head>
 
 <body id="page-top" class="index">
@@ -403,7 +409,7 @@
                 <p>I haven't done much reading for fun while in college, so I set a goal to help myself make time for it: read one book every week for a year. Full disclosure: I'm four weeks behind (turns out this is kinda difficult). Have a look at what I've read so far and tell me what you think I should read next!
                 <br><br>
                 <strong>1.</strong> A Brief History of Seven Killings <strong>2.</strong> The Round House <strong>3.</strong> Stardust <strong>4.</strong> The Ocean At The End Of The Lane <strong>5.</strong> Confidence Men: Wall Street, Washington and the Education of a President <strong>6.</strong> Neverwhere <strong>7.</strong> Wouldn't Take Nothing For My Journey Now <strong>8.</strong> Writing Down The Bones <strong>9.</strong> Three Cups of Tea <strong>10.</strong> Anansi Boys <strong>11.</strong> King of Torts <strong>12.</strong> Ready Player One
-                <strong>13.</strong> The Making of the McPaper <strong>14.</strong> M Train <strong>15.</strong> Smoke and Mirrors <strong>16.</strong> Something In Common</p>
+                <strong>13.</strong> The Making of the McPaper <strong>14.</strong> M Train <strong>15.</strong> Smoke and Mirrors <strong>16.</strong> Something In Common <strong>17. Digital Disconnect</strong></p>
                 <center><iframe src="https://services.cognitoforms.com/f/y-oEMgMUAE6VRzfkeGKA8w?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="452" width="100%"></iframe>
                 <script src="https://services.cognitoforms.com/scripts/embed.js"></script></center>
               </div>
@@ -699,8 +705,39 @@
                               <!-- Project Details Go Here -->
                               <h2>Side Hustles</h2>
                               <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                              <body class="">
+                              <div id="main-wrapper" class="">
+                                <div id="main-content" class="container">
 
+                              <section class="row chart-elements">
 
+                                <div class="key">
+                                  <div class="key-item v0">
+                                    <span class='zero'>0</span>
+                                    <div class="swatch"></div>
+                                  </div>
+                                  <div class="key-item v0-10">
+                                    <span class='val'>10</span>
+                                    <div class="swatch"></div>
+                                  </div>
+                                  <div class="key-item v10-20">
+                                    <span class='val'>20</span>
+                                    <div class="swatch"></div>
+                                  </div>
+                                  <div class="key-item v20">
+                                    <span class='val'>30</span>
+                                    <div class="swatch"></div>
+                                  </div>
+                                </div>
+
+                                <div id="chart" class="col-md-12 chart">
+                                  <div class="tt">Federal firearms licenses per ZIP code</div>
+                                </div>
+                              </div>
+                            </div>
+
+                            </section>
+                          </body>
                       </div>
                   </div>
               </div>
@@ -799,11 +836,25 @@
     <!-- jQuery -->
     <script src="other/jquery/jquery.min.js"></script>
 
+    <!--D3.js-->
+     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+     <script src="http://d3js.org/queue.v1.min.js"></script>
+
+     <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+
+
+
+    <!-- Leaflet JavaScript -->
+      <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="other/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+
+
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
@@ -811,6 +862,9 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+    <script src="js/script.js"></script>
+
+
 
 
 </body>

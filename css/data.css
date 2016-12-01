@@ -1,0 +1,97 @@
+.chart-elements {
+  text-align: right;
+}
+
+.chart {
+  height: 500px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.zipcode {
+  stroke-width: 1;
+  stroke: #FFF;
+  display: inline-block;
+}
+
+.tt {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  padding: 8px;
+  z-index: 99999;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  text-align: left;
+}
+
+.tt .name {
+  font-weight: bold;
+}
+
+.tt .val {
+  font-size: 18px;
+  display: inline-block;
+}
+
+.key {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  margin-right: 30px;
+}
+
+.key .key-item {
+  top: 15px;
+  width: 40px;
+  float: left;
+  position: relative;
+  margin: 0;
+}
+
+.key .swatch {
+  width: 40px;
+  height: 10px;
+  outline: 1px solid #999;
+}
+
+.key .val {
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  font-size: 11px;}
+
+.key .zero {
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    font-size: 11px;
+
+
+
+}
+
+.v0 .swatch {
+  background-color: #FEFFE7;
+  opacity: 0.7;
+}
+
+.v0-10 .swatch {
+  background-color: #fecc5c;
+  opacity: 0.7;
+}
+
+.v10-20 .swatch {
+  background-color: #fd8d3c;
+  opacity: 0.7;
+}
+
+.v20 .swatch {
+  background-color: #e31a1c;
+  opacity: 0.7;
+}
