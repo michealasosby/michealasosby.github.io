@@ -272,7 +272,7 @@ header {
 }
 
 header .intro-text {
-  padding-top: 500px;
+  padding-top: 550px;
   padding-bottom: 20px;
 }
 header .intro-text .intro-lead-in {
@@ -324,7 +324,7 @@ header .intro-text .intro-lead-in span {
 @media (min-width: 768px) {
 
   header .intro-text {
-    padding-top: 375px;
+    padding-top: 450px;
     padding-bottom: 100px;
   }
   header .intro-text .intro-lead-in {
@@ -641,7 +641,7 @@ aside.clients img {
 }
 
 section#books {
-  background-image: url('../img/books/52books.jpg');
+  background-image: url('../img/books/morebooks.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -680,68 +680,15 @@ section#books p {
 
 #books-background {
   background-color: #FFFFFF;
-  opacity: .9;
+  opacity: .95;
 }
 
-#books-background p span {
-  color: #460E22;
-}
+
 
 section#contact {
-  background-color: #222222;
-  background-image: url('../img/map-image.png');
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #eeeeee;
 }
-section#contact .section-heading {
-  color: white;
-}
-section#contact .form-group {
-  margin-bottom: 25px;
-}
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-section#contact .form-group input.form-control {
-  height: auto;
-}
-section#contact .form-group textarea.form-control {
-  height: 236px;
-}
-section#contact .form-control:focus {
-  border-color: #fed136;
-  box-shadow: none;
-}
-section#contact ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact :-moz-placeholder {
-  /* Firefox 18- */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact ::-moz-placeholder {
-  /* Firefox 19+ */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact .text-danger {
-  color: #e74c3c;
-}
+
 footer {
   padding: 25px 0;
   text-align: center;
