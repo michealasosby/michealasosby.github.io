@@ -22,6 +22,10 @@ p.large {
   font-size: 16px;
 }
 
+@media (min-width: 768px) { h5.email {
+  margin-left: -525px;
+}}
+
 a,
 a:hover,
 a:focus,
@@ -257,7 +261,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-  background-image: url('../img/about/headerimage-edited.jpg');
+  background-image: url('../img/about/beach.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -272,7 +276,7 @@ header {
 }
 
 header .intro-text {
-  padding-top: 550px;
+  padding-top: 475px;
   padding-bottom: 20px;
 }
 header .intro-text .intro-lead-in {
@@ -709,6 +713,14 @@ footer ul.quicklinks {
 ul.social-buttons {
   margin-bottom: 0;
 }
+
+ul.social-buttons2 {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px){ ul.social-buttons {
+  margin-left: -500px;
+  }}
 ul.social-buttons li a {
   display: block;
   background-color: #222222;
@@ -723,11 +735,34 @@ ul.social-buttons li a {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+
+ul.social-buttons2 li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: #9DAEB2;
 }
+
+ul.social-buttons2 li a:hover,
+ul.social-buttons2 li a:focus,
+ul.social-buttons2 li a:active {
+  background-color: #9DAEB2;
+}
+
 .btn:focus,
 .btn:active,
 .btn.active,
