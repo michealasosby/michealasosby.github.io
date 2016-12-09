@@ -30,4 +30,7 @@
         }
     })
 
+    // Typed.js
+
+
 })(jQuery); // End of use strict

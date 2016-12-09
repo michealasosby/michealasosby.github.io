@@ -85,9 +85,8 @@
   <header>
       <div class="container">
           <div class="intro-text">
-            <p class="intro-lead-in"><strong><i>&nbsp; Micheala in 140 characters </i></strong>
-            <br>
-            <span>Community builder with a special place in her heart for local news. Works magic with social media. Loves bookstores and Great Lakes.  </span></p>
+            <p class="intro-lead-in"><span>&nbsp;MICHEALA IN 140 CHARACTERS&nbsp;</span></p>
+            <span class="element"></span>
           </div>
       </div>
   </header>
@@ -106,7 +105,7 @@
 
       <div class="col-lg-8">
         <h2 id="name">Micheala Sosby</h2>
-        <p class="large text-muted">
+        <p class="large text-muted description">
           I’m the newsroom’s resident people person and social media nerd.
           I work in the overlap between journalism, tech and business, and the storytelling I do is powered by community outreach and a focus on the audience.
           By involving communities in journalism, I can help local news organizations earn trust and develop sustainable business models for the present and future. Social media, code and my ears are my favorite tools.</p>
@@ -809,7 +808,8 @@
     <!-- jQuery -->
     <script src="other/jquery/jquery.min.js"></script>
 
-
+    <!--Typed.js-->
+    <script src="typed/js/typed.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="other/bootstrap/js/bootstrap.min.js"></script>
@@ -828,6 +828,17 @@
     <script src="js/agency.min.js"></script>
     <script src="js/script.js"></script>
 
+    <script src="jquery.js"></script>
+    <script src="typed.js"></script>
+
+    <script>
+        $(function(){
+            $(".element").typed({
+                strings: ["Community builder with a special place in her heart for local news.^500 Works magic with social media.^500 Loves bookstores and Great Lakes."],
+                typeSpeed: .2,
+            });
+        });
+    </script>
 
 
 
