@@ -664,8 +664,7 @@ aside.clients img {
 }
 
 section#books {
-  background-image: url('../img/books/morebooks.jpg');
-  background-repeat: no-repeat;
+  background-color: #9DAEB2;
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
