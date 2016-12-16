@@ -1,0 +1,89 @@
+<!doctype html>
+
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+  <title>Firearms In Missouri</title><?php /* EDIT ME */ ?>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!--Latest compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+  <!--Leaflet CSS-->
+  <link rel="stylesheet" href="map/css/leaflet.css"/>
+
+  <link rel="stylesheet" href="map/css/stylesheet.css"/>
+
+</head>
+
+<body class="">
+
+  <div id="main-wrapper" class="">
+    <div id="main-content" class="container">
+      <header class="row">
+        <div class="social-links col-md-12"></div>
+        <div class="col-md-12">
+          <h1>Missouri's Federal Firearms Licenses By ZIP Code</h1><br>
+          <div class="byline">By Micheala Sosby</div>
+          <div class="meta">
+            April 26, 2016
+          </div>
+<br>
+          <h4>Sedalia, Poplar Bluff and Arnold fuel Missouri's firearms business</h4>
+          <p>A Federal Firearms License (FFL) allows an individual or a company to manufacture or import firearms and ammunition, or engage in interstate and intrastate firearms sales. The Federal Firearms License was required under the Gun Control Act of 1968, which was largely <a href="http://www.theatlantic.com/magazine/archive/2011/09/the-secret-history-of-guns/308608/">a response to the Detroit Race Riots and the assasinations of Martin Luther King Jr. and President John F. Kennedy</a>. <br><br>Missouri doesn't require firearms dealers to obtain a state license, so the Federal Firearms License requirement provides the only record of firearms dealers in the state. <a href="http://smartgunlaws.org/missouri-state-law-summary/">Federal dealer licenses are in high demand</a> because a dealer can purchase unlimited quantities of firearms through the mail, at wholesale prices, without being subject to background checks or any state or local waiting periods. This map shows the number of federal firearms licenses issued in each Missouri ZIP code. License holders can be individuals or businesses, and some license holders may have more than one kind of firearms license.</p>
+        </div>
+      </header>
+
+      <section class="row chart-elements">
+
+        <div class="key">
+          <div class="key-item v0">
+            <span class='zero'>0</span>
+            <div class="swatch"></div>
+          </div>
+          <div class="key-item v0-10">
+            <span class='val'>10</span>
+            <div class="swatch"></div>
+          </div>
+          <div class="key-item v10-20">
+            <span class='val'>20</span>
+            <div class="swatch"></div>
+          </div>
+          <div class="key-item v20">
+            <span class='val'>30</span>
+            <div class="swatch"></div>
+          </div>
+        </div>
+
+        <div id="chart" class="col-md-12 chart">
+          <div class="tt">Federal firearms licenses per ZIP code</div>
+        </div>
+
+      </section>
+
+      <footer>
+        <div id="source-line"><i>Source: <a href="https://www.atf.gov/firearms/listing-federal-firearms-licensees-ffls-2016">Bureau of Alcohol, Tobacco, Firearms and Explosives</i></a></div><br><br>
+      </footer>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+  <!--D3.js-->
+  <!--<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="http://d3js.org/queue.v1.min.js"></script>-->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <script type="text/javascript" src="https://stamen-tiles.a.ssl.fastly.net"></script>
+
+  <!-- Leaflet JavaScript -->
+  <script src="map/js/leaflet.js"></script>
+
+  <!-- Latest compiled and minified Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="map/js/script.js"></script>
+
+</body>
+</html>
