@@ -152,7 +152,7 @@ d3.select('svg').style('opacity', 0.7)
 
           $(".tt").html(
             "<div class='title'><h8>Federal firearms licenses per ZIP code</h8></div>"+
-            "<div class='zipcode'></div>"+zips+
+            "<div class='zipcode'></div>"+zips+"</h5"+
             "&nbsp;&nbsp;<div class='val'><h6><strong>licenses:&nbsp</strong></h6><h5></div>"+gunLicenses+"</h5>"
           ).show();
 
