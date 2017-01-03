@@ -672,21 +672,30 @@ section#books {
   background-size: cover;
   -o-background-size: cover;
   min-height: 800px;
-  max-height: 2000px;
-  height: 1100px;
+  max-height: 2200px;
+  height: 1900px;
   width:auto;
   text-align: center;
   color: white;
 }
 
+
 @media (min-width: 768px) {
   section#books {
-    max-height: 900px;
+    max-height: 1300px;
   }
 
   section#books iframe {
-  padding-left: 75px;
+  padding-bottom: 30px;
+  padding-top: 20px;
   }
+
+  #booksform {
+    margin: auto;
+    width: 50%;
+    height: auto;
+  }
+
 }
 
 
@@ -705,7 +714,10 @@ section#books p {
   opacity: .95;
 }
 
-
+#goodreads {
+  width: 100%;
+  padding-left: 35px;
+}
 
 section#contact {
   background-color: #eeeeee;
