@@ -1,0 +1,47 @@
+#mapid {
+  height: 450px;
+  position: relative;
+  width: 100%;
+}
+
+#map-container {
+  padding-bottom: 100px;
+}
+
+.title {
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-family: 'Taviraj', serif;
+  font-size: 75px;
+  text-align: center;
+  color: #1E92B2;
+}
+
+h4 {
+  text-align: center;
+  margin-top: -30px;
+  font-family: 'Taviraj',sans-serif;
+  font-style: italic;
+  color: #B2A19D;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.image img {
+  padding-bottom: 50px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.beginning {
+  color: #B25335;
+  font-family: 'Roboto', sans-serif;
+  font-style: bold 900;
+  padding-top: 50px;
+}
