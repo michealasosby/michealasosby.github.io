@@ -45,3 +45,7 @@ p {
   font-style: bold 900;
   padding-top: 50px;
 }
+
+a:link {
+  color: #1E92B2;
+}
