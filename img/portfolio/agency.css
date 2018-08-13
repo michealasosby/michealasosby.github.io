@@ -663,9 +663,7 @@ section#books {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  min-height: 800px;
-  max-height: 500px;
-  height: 500px;
+  height: 2000px;
   width:auto;
   text-align: center;
   color: white;
@@ -674,42 +672,11 @@ section#books {
 
 @media (min-width: 768px) {
   section#books {
-    max-height: 500px;
+    max-height: 800px;
   }
-
-  section#books iframe {
-  padding-bottom: 30px;
-  padding-top: 20px;
-  }
-
-  #booksform {
-    margin: auto;
-    width: 50%;
-    height: auto;
-    padding-bottom: 20px;
-  }
-
-}
-
 
 section#books h1 {
   font-size: 60px;
-}
-
-section#books p {
-  color: #222222;
-  text-align: left;
-  padding: 25px;
-}
-
-#books-background {
-  background-color: #FFFFFF;
-  opacity: .95;
-}
-
-#goodreads {
-  width: 100%;
-  padding-left: 35px;
 }
 
 section#contact {
