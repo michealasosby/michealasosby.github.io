@@ -202,7 +202,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom .nav li a:hover {
-  color: #FFFFFF;
+  color: #9DAEB2;
+  background-color: #FFFFFF;
 }
 
 .navbar-custom .navbar-nav > .active > a {
