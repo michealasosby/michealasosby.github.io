@@ -80,7 +80,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #FFFFFF;
+  background-color: #9DAEB2;
   border-color: #FFFFFF;
 }
 .btn-primary:active,
@@ -173,7 +173,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #FFFFFF;
+  color: #460e22;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -198,7 +198,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #FFFFFF;
+  color: #460e22;
 }
 
 .navbar-custom .nav li a:hover {
@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-custom .navbar-brand {
     font-size: 4.5em;
-    color: #FFFFFF;
+    color: #460e22;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -261,7 +261,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-  background-image: url("../img/about/juno.jpeg");
+  background-image: url("../img/about/seafoam.png");
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -271,7 +271,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   min-height: 300px;
-  max-height: 450px;
+  max-height: 400px;
   text-align: center;
   color: white;
 }
@@ -287,8 +287,8 @@ header .intro-text {
 header .intro-text .intro-lead-in {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 35px;
-  line-height: 50px;
-  font-weight: 500;
+  line-height: 35px;
+  font-weight: 400;
 }
 
 
@@ -296,8 +296,8 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bolder;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 35px;
+  line-height: 35px;
   margin-bottom: 25px;
 
 }
@@ -328,7 +328,7 @@ header .intro-text .intro-heading {
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-    font-size: 75px;
+    font-size: 100;
 
   }
 }
@@ -615,6 +615,11 @@ section h3.section-subheading {
     padding: 0 20px 20px;
   }
 }
+
+.btn  {
+  background-color: #9DAEB2;
+  color: #FFFFFF;
+}
 @media (min-width: 1200px) {
   .timeline > li {
     min-height: 170px;
@@ -663,7 +668,7 @@ section#books {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 2000px;
+  height: 1000px;
   width:auto;
   text-align: center;
   color: white;
@@ -799,6 +804,8 @@ ul.social-buttons2 li a:active {
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
+
+
 .portfolio-modal .close-modal {
   position: absolute;
   width: 75px;
@@ -854,4 +861,9 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #C6DBE0;
+}
+
+blockquote {
+  margin: auto;
+  width: 100%;
 }
